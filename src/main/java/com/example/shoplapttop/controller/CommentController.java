@@ -30,4 +30,6 @@ public class CommentController {
         return new ResponseEntity<>(commentService.getAllComment(offset, limit, productId),HttpStatus.OK);
     }
 
+
+    //test ne kkaka
 }
